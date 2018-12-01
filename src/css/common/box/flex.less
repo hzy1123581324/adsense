@@ -1,0 +1,72 @@
+
+  /************弹性布局*****************/
+  /*设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。*/
+  .flex{
+    flex-direction:row;
+  }
+  .flex_wrap{
+	  flex-wrap:wrap;
+  }
+  .flex_nowrap{
+	  flex-wrap:nowrap;
+  }
+  .flex_row{ /*主轴为水平方向*/
+    flex-direction:row;
+  }
+  .flex_reverse{
+	  flex-direction:column;
+  }
+  .flex_center{
+    justify-content: center;
+    align-content: center;/*多行*/
+    align-items: center;/*单行*/
+  }
+  .flex_center_x{
+	justify-content: center;
+  }
+  .flex_center_y{
+    align-content: center;/*多行*/
+    align-items: center;/*单行*/
+  }
+    .flex_top{
+      align-content: flex-start;/*多行*/
+      align-items: flex-start;/*单行*/
+    }
+    .flex_btm{
+      align-content: flex-end;/*多行*/
+      align-items: flex-end;/*单行*/
+    }
+    .flex_lf{
+      justify-content: flex-start;
+    }
+    .flex_rg{
+      justify-content: flex-end;
+    }
+    .flex_between{
+    justify-content: space-between;
+    align-content: space-between;/*多行*/
+  }
+  .flex_between_x{
+	justify-content: space-between;
+  }
+  .flex_between_y{
+	align-content: space-between;/*多行*/
+  }
+
+
+  .flex_around{
+    justify-content: space-around;
+	  align-content: space-around;/*多行*/
+  }
+  .flex_around_x{
+	justify-content: space-around;
+  }
+  .flex_around_y{
+	align-content: space-around;/*多行*/
+  }
+  .flex_grow{
+	flex-grow: 1;
+  }
+  .flex_shrink{
+		flex-shrink:0;
+  }

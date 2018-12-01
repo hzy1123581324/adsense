@@ -1,0 +1,95 @@
+/* v2.0 */
+@charset "UTF-8";
+@import "./common_var.less";//公告变量
+@import "./bg_color.less";//背景颜色
+@import "./grid/grid.less";//栅格布局*/
+@import "./font/font.less";//字体设置*/
+@import "./box/box.less";//盒模型*/
+@import "./modal/modal.less";//遮罩
+@import "./trans/trans.less";//动画/过渡/转换
+@import "./icon/icon.less";//图标
+@import "./input/input.less";//表单样式
+@import "./tab/tab.less";//页签
+@import "./content/content.less";//内容生成
+@import "./position/position.less";//定位
+/*重设默认样式*/
+body, html,
+header,section,footer,/*语意标签*/
+div,p,/*块级元素*/
+span,img,i,
+h1,h2,h3,h4,h5,h6,
+ol,li,ul,dl,dd,dt,/*列表*/
+button, input,textarea {/**/
+	padding: 0;
+	margin: 0;
+	-webkit-margin-before: 0em;/*css3新增*/
+	-webkit-margin-after: 0em;/*css3新增*/
+	-webkit-margin-start: 0px;/*css3新增*/
+	-webkit-margin-end: 0px;/*css3新增*/
+	text-decoration: none;
+	border: 0;
+	list-style: none;
+	outline: 0;
+	font-weight: 400;
+	// position: relative;
+	font-style: normal;
+}
+
+textarea{/*去掉右下三角*/
+	resize:none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+}
+/*常用*/
+.hide {
+	display: none !important;
+}
+
+.rg {
+	float: right !important;
+}
+.lf {
+	float: left !important;
+}
+
+
+.clear::after, .clear::before {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+// /*********宽度 stat**************/
+.w_100 {
+	width: 750px;
+}
+.w_92 {/*两倍图690*/
+	width: 690px !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+.w_84 {/*两倍图630*/
+	width: 630px !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/***********宽度 end***********/
+// arr=68 80 88 98 
+// for num in arr
+// 	.h_(num)
+// 		height: 1px * num !important;
+
+/***********图片尺寸*****正方形******/
+.size_box(@size) when (@size<=100) {
+   .size_@{size}{
+	width: 1px * @size !important;
+	height: 1px * @size !important;
+	}
+	.size_box(@size+2);
+}
+.size_box(24);
+
+

@@ -1,0 +1,28 @@
+.block-width(@width){
+    width:@width;
+}
+// .bg_color(@color){
+//     .bg_@color{
+//         background-color:@color;
+//     }
+// }
+.webkit(@name,@attr){
+	-webkit-@{name}:@attr;
+	-moz-@{name}:@attr;
+	-o-@{name}:@attr;
+	-ms-@{name}:@attr;
+	@{name}:@attr;
+	}
+
+
+
+
+.Transform(@attr){
+    .webkit(transform,@attr)
+}
+.Transform-origin(@attr){
+    .webkit(transform-origin,@attr)
+}
+.Transition(@attr){
+	.webkit(transition,@attr);
+}

@@ -1,0 +1,104 @@
+@import "font_color.less";/*字体颜色*/
+
+
+/***************粗体***********************/
+.f_b{
+	font-weight: bold;
+}
+/***********字体排版*******************/
+.txt_c {
+	text-align: center !important;
+}
+.txt_lf {
+	text-align: left !important;
+}
+.txt_rg {
+	text-align: right !important;
+}
+/*缩进*/
+
+.f_indent{/*缩进两字28字体大小*/
+	text-indent:56px;
+}
+
+/*强制不换行* 父类*/
+.f_nowrap{
+	white-space : nowrap; 
+}
+.f_wrap{
+	word-wrap:break-word;
+	word-break:break-all,/* 强制英文单词断行  */
+}
+.f_del{/*删除线*/
+	text-decoration: line-through;
+}
+.f_under{/*下划线*/
+	text-decoration:underline;
+}
+
+/************显示一行*****************/
+// .line1{
+// 	lines: 1;
+// }
+/************显示两行*****************/
+// .line2{
+// 	lines: 2;
+// }
+/************显示三行*****************/
+// .line3{
+// 	lines:3
+// }
+
+/*行高*/
+.l_h_1{
+	line-height:1!important;
+}
+.l_h_2 {
+	line-height: 1.8 !important;
+}
+.l_h_15 {
+	line-height: 1.5 !important;
+}
+//字体基数
+.f_s_base{
+	font-size: (28/750)*1vw!important;
+}
+
+.font_size(@f_s) when (@f_s<=80) {
+    .f_s_@{f_s}{
+		font-size:1px * @f_s;
+		// font-size:(@f_s/750)*1vw;
+	}
+	.f_s_base .f_s_@{f_s}{
+		font-size:1px * @f_s;
+        font-size:(@f_s/750)*1vw;
+	}
+	.f_s_base .f_s_@{f_s}{
+		font-size:1px * @f_s;
+        font-size:(@f_s/750)*1vw;
+	}
+	.base_font(@f_s) when(@f_s<28){
+		.f_s_base .f_s_@{f_s}{
+			font-size:2px * @f_s;
+			font-size:(@f_s/750)*2vw;
+			display: inline-block;
+			width:200%;
+			// -webkit-transform:scale(.5);
+			// -moz-transform:scale(.5);
+			// -ms-transform:scale(.5);
+			// -o-transform:scale(.5);
+			// transform:scale(.5);
+			.Transform(scale(.5));
+			// -webkit-transform-origin:top left;
+			// -moz-transform-origin:top left;
+			// -ms-transform-origin:top left;
+			// -o-transform-origin:top left;
+			// transform-origin:top left;
+			.Transform-origin(0 0);
+		}
+	}
+	.base_font(@f_s+2);
+	.font_size(@f_s+2);
+}
+  .font_size(10)!important;
+			  

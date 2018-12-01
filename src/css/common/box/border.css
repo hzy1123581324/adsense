@@ -1,0 +1,510 @@
+/************边框*********************/
+.bor {
+  border: 1px solid;
+}
+/****圆角***************/
+.radius {
+  /*默认5px*/
+  border-radius: 5px;
+}
+.radius_c {
+  border-radius: 50%;
+}
+.radius_angle {
+  /*直角*/
+  border-radius: 0;
+}
+.radius_5 {
+  border-bottom-right-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  border-top-left-radius: 5px !important;
+  border-bottom-right-radius: 0.00666667vw !important;
+  border-bottom-left-radius: 0.00666667vw !important;
+  border-top-right-radius: 0.00666667vw !important;
+  border-top-left-radius: 0.00666667vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 5px !important;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 0.00666667vw !important;
+  border-top-left-radius: 0.00666667vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 0.00666667vw !important;
+  border-bottom-left-radius: 0.00666667vw !important;
+}
+.radius_10 {
+  border-bottom-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-right-radius: 0.01333333vw !important;
+  border-bottom-left-radius: 0.01333333vw !important;
+  border-top-right-radius: 0.01333333vw !important;
+  border-top-left-radius: 0.01333333vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 0.01333333vw !important;
+  border-top-left-radius: 0.01333333vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 0.01333333vw !important;
+  border-bottom-left-radius: 0.01333333vw !important;
+}
+.radius_15 {
+  border-bottom-right-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  border-top-left-radius: 15px !important;
+  border-bottom-right-radius: 0.02vw !important;
+  border-bottom-left-radius: 0.02vw !important;
+  border-top-right-radius: 0.02vw !important;
+  border-top-left-radius: 0.02vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 15px !important;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 0.02vw !important;
+  border-top-left-radius: 0.02vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 0.02vw !important;
+  border-bottom-left-radius: 0.02vw !important;
+}
+.radius_20 {
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-right-radius: 0.02666667vw !important;
+  border-bottom-left-radius: 0.02666667vw !important;
+  border-top-right-radius: 0.02666667vw !important;
+  border-top-left-radius: 0.02666667vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 0.02666667vw !important;
+  border-top-left-radius: 0.02666667vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 0.02666667vw !important;
+  border-bottom-left-radius: 0.02666667vw !important;
+}
+.radius_25 {
+  border-bottom-right-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  border-bottom-right-radius: 0.03333333vw !important;
+  border-bottom-left-radius: 0.03333333vw !important;
+  border-top-right-radius: 0.03333333vw !important;
+  border-top-left-radius: 0.03333333vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 0.03333333vw !important;
+  border-top-left-radius: 0.03333333vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+  border-bottom-right-radius: 0.03333333vw !important;
+  border-bottom-left-radius: 0.03333333vw !important;
+}
+.radius_30 {
+  border-bottom-right-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+  border-top-right-radius: 30px !important;
+  border-top-left-radius: 30px !important;
+  border-bottom-right-radius: 0.04vw !important;
+  border-bottom-left-radius: 0.04vw !important;
+  border-top-right-radius: 0.04vw !important;
+  border-top-left-radius: 0.04vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 30px !important;
+  border-top-left-radius: 30px !important;
+  border-top-right-radius: 0.04vw !important;
+  border-top-left-radius: 0.04vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+  border-bottom-right-radius: 0.04vw !important;
+  border-bottom-left-radius: 0.04vw !important;
+}
+.radius_35 {
+  border-bottom-right-radius: 35px !important;
+  border-bottom-left-radius: 35px !important;
+  border-top-right-radius: 35px !important;
+  border-top-left-radius: 35px !important;
+  border-bottom-right-radius: 0.04666667vw !important;
+  border-bottom-left-radius: 0.04666667vw !important;
+  border-top-right-radius: 0.04666667vw !important;
+  border-top-left-radius: 0.04666667vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 35px !important;
+  border-top-left-radius: 35px !important;
+  border-top-right-radius: 0.04666667vw !important;
+  border-top-left-radius: 0.04666667vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 35px !important;
+  border-bottom-left-radius: 35px !important;
+  border-bottom-right-radius: 0.04666667vw !important;
+  border-bottom-left-radius: 0.04666667vw !important;
+}
+.radius_40 {
+  border-bottom-right-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+  border-top-right-radius: 40px !important;
+  border-top-left-radius: 40px !important;
+  border-bottom-right-radius: 0.05333333vw !important;
+  border-bottom-left-radius: 0.05333333vw !important;
+  border-top-right-radius: 0.05333333vw !important;
+  border-top-left-radius: 0.05333333vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 40px !important;
+  border-top-left-radius: 40px !important;
+  border-top-right-radius: 0.05333333vw !important;
+  border-top-left-radius: 0.05333333vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+  border-bottom-right-radius: 0.05333333vw !important;
+  border-bottom-left-radius: 0.05333333vw !important;
+}
+.radius_45 {
+  border-bottom-right-radius: 45px !important;
+  border-bottom-left-radius: 45px !important;
+  border-top-right-radius: 45px !important;
+  border-top-left-radius: 45px !important;
+  border-bottom-right-radius: 0.06vw !important;
+  border-bottom-left-radius: 0.06vw !important;
+  border-top-right-radius: 0.06vw !important;
+  border-top-left-radius: 0.06vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 45px !important;
+  border-top-left-radius: 45px !important;
+  border-top-right-radius: 0.06vw !important;
+  border-top-left-radius: 0.06vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 45px !important;
+  border-bottom-left-radius: 45px !important;
+  border-bottom-right-radius: 0.06vw !important;
+  border-bottom-left-radius: 0.06vw !important;
+}
+.radius_50 {
+  border-bottom-right-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+  border-top-right-radius: 50px !important;
+  border-top-left-radius: 50px !important;
+  border-bottom-right-radius: 0.06666667vw !important;
+  border-bottom-left-radius: 0.06666667vw !important;
+  border-top-right-radius: 0.06666667vw !important;
+  border-top-left-radius: 0.06666667vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 50px !important;
+  border-top-left-radius: 50px !important;
+  border-top-right-radius: 0.06666667vw !important;
+  border-top-left-radius: 0.06666667vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+  border-bottom-right-radius: 0.06666667vw !important;
+  border-bottom-left-radius: 0.06666667vw !important;
+}
+.radius_55 {
+  border-bottom-right-radius: 55px !important;
+  border-bottom-left-radius: 55px !important;
+  border-top-right-radius: 55px !important;
+  border-top-left-radius: 55px !important;
+  border-bottom-right-radius: 0.07333333vw !important;
+  border-bottom-left-radius: 0.07333333vw !important;
+  border-top-right-radius: 0.07333333vw !important;
+  border-top-left-radius: 0.07333333vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 55px !important;
+  border-top-left-radius: 55px !important;
+  border-top-right-radius: 0.07333333vw !important;
+  border-top-left-radius: 0.07333333vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 55px !important;
+  border-bottom-left-radius: 55px !important;
+  border-bottom-right-radius: 0.07333333vw !important;
+  border-bottom-left-radius: 0.07333333vw !important;
+}
+.radius_60 {
+  border-bottom-right-radius: 60px !important;
+  border-bottom-left-radius: 60px !important;
+  border-top-right-radius: 60px !important;
+  border-top-left-radius: 60px !important;
+  border-bottom-right-radius: 0.08vw !important;
+  border-bottom-left-radius: 0.08vw !important;
+  border-top-right-radius: 0.08vw !important;
+  border-top-left-radius: 0.08vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 60px !important;
+  border-top-left-radius: 60px !important;
+  border-top-right-radius: 0.08vw !important;
+  border-top-left-radius: 0.08vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 60px !important;
+  border-bottom-left-radius: 60px !important;
+  border-bottom-right-radius: 0.08vw !important;
+  border-bottom-left-radius: 0.08vw !important;
+}
+.radius_65 {
+  border-bottom-right-radius: 65px !important;
+  border-bottom-left-radius: 65px !important;
+  border-top-right-radius: 65px !important;
+  border-top-left-radius: 65px !important;
+  border-bottom-right-radius: 0.08666667vw !important;
+  border-bottom-left-radius: 0.08666667vw !important;
+  border-top-right-radius: 0.08666667vw !important;
+  border-top-left-radius: 0.08666667vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 65px !important;
+  border-top-left-radius: 65px !important;
+  border-top-right-radius: 0.08666667vw !important;
+  border-top-left-radius: 0.08666667vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 65px !important;
+  border-bottom-left-radius: 65px !important;
+  border-bottom-right-radius: 0.08666667vw !important;
+  border-bottom-left-radius: 0.08666667vw !important;
+}
+.radius_70 {
+  border-bottom-right-radius: 70px !important;
+  border-bottom-left-radius: 70px !important;
+  border-top-right-radius: 70px !important;
+  border-top-left-radius: 70px !important;
+  border-bottom-right-radius: 0.09333333vw !important;
+  border-bottom-left-radius: 0.09333333vw !important;
+  border-top-right-radius: 0.09333333vw !important;
+  border-top-left-radius: 0.09333333vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 70px !important;
+  border-top-left-radius: 70px !important;
+  border-top-right-radius: 0.09333333vw !important;
+  border-top-left-radius: 0.09333333vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 70px !important;
+  border-bottom-left-radius: 70px !important;
+  border-bottom-right-radius: 0.09333333vw !important;
+  border-bottom-left-radius: 0.09333333vw !important;
+}
+.radius_75 {
+  border-bottom-right-radius: 75px !important;
+  border-bottom-left-radius: 75px !important;
+  border-top-right-radius: 75px !important;
+  border-top-left-radius: 75px !important;
+  border-bottom-right-radius: 0.1vw !important;
+  border-bottom-left-radius: 0.1vw !important;
+  border-top-right-radius: 0.1vw !important;
+  border-top-left-radius: 0.1vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 75px !important;
+  border-top-left-radius: 75px !important;
+  border-top-right-radius: 0.1vw !important;
+  border-top-left-radius: 0.1vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 75px !important;
+  border-bottom-left-radius: 75px !important;
+  border-bottom-right-radius: 0.1vw !important;
+  border-bottom-left-radius: 0.1vw !important;
+}
+.radius_80 {
+  border-bottom-right-radius: 80px !important;
+  border-bottom-left-radius: 80px !important;
+  border-top-right-radius: 80px !important;
+  border-top-left-radius: 80px !important;
+  border-bottom-right-radius: 0.10666667vw !important;
+  border-bottom-left-radius: 0.10666667vw !important;
+  border-top-right-radius: 0.10666667vw !important;
+  border-top-left-radius: 0.10666667vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 80px !important;
+  border-top-left-radius: 80px !important;
+  border-top-right-radius: 0.10666667vw !important;
+  border-top-left-radius: 0.10666667vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 80px !important;
+  border-bottom-left-radius: 80px !important;
+  border-bottom-right-radius: 0.10666667vw !important;
+  border-bottom-left-radius: 0.10666667vw !important;
+}
+.radius_85 {
+  border-bottom-right-radius: 85px !important;
+  border-bottom-left-radius: 85px !important;
+  border-top-right-radius: 85px !important;
+  border-top-left-radius: 85px !important;
+  border-bottom-right-radius: 0.11333333vw !important;
+  border-bottom-left-radius: 0.11333333vw !important;
+  border-top-right-radius: 0.11333333vw !important;
+  border-top-left-radius: 0.11333333vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 85px !important;
+  border-top-left-radius: 85px !important;
+  border-top-right-radius: 0.11333333vw !important;
+  border-top-left-radius: 0.11333333vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 85px !important;
+  border-bottom-left-radius: 85px !important;
+  border-bottom-right-radius: 0.11333333vw !important;
+  border-bottom-left-radius: 0.11333333vw !important;
+}
+.radius_90 {
+  border-bottom-right-radius: 90px !important;
+  border-bottom-left-radius: 90px !important;
+  border-top-right-radius: 90px !important;
+  border-top-left-radius: 90px !important;
+  border-bottom-right-radius: 0.12vw !important;
+  border-bottom-left-radius: 0.12vw !important;
+  border-top-right-radius: 0.12vw !important;
+  border-top-left-radius: 0.12vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 90px !important;
+  border-top-left-radius: 90px !important;
+  border-top-right-radius: 0.12vw !important;
+  border-top-left-radius: 0.12vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 90px !important;
+  border-bottom-left-radius: 90px !important;
+  border-bottom-right-radius: 0.12vw !important;
+  border-bottom-left-radius: 0.12vw !important;
+}
+.radius_95 {
+  border-bottom-right-radius: 95px !important;
+  border-bottom-left-radius: 95px !important;
+  border-top-right-radius: 95px !important;
+  border-top-left-radius: 95px !important;
+  border-bottom-right-radius: 0.12666667vw !important;
+  border-bottom-left-radius: 0.12666667vw !important;
+  border-top-right-radius: 0.12666667vw !important;
+  border-top-left-radius: 0.12666667vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 95px !important;
+  border-top-left-radius: 95px !important;
+  border-top-right-radius: 0.12666667vw !important;
+  border-top-left-radius: 0.12666667vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 95px !important;
+  border-bottom-left-radius: 95px !important;
+  border-bottom-right-radius: 0.12666667vw !important;
+  border-bottom-left-radius: 0.12666667vw !important;
+}
+.radius_100 {
+  border-bottom-right-radius: 100px !important;
+  border-bottom-left-radius: 100px !important;
+  border-top-right-radius: 100px !important;
+  border-top-left-radius: 100px !important;
+  border-bottom-right-radius: 0.13333333vw !important;
+  border-bottom-left-radius: 0.13333333vw !important;
+  border-top-right-radius: 0.13333333vw !important;
+  border-top-left-radius: 0.13333333vw !important;
+}
+.radius_up_10 {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 100px !important;
+  border-top-left-radius: 100px !important;
+  border-top-right-radius: 0.13333333vw !important;
+  border-top-left-radius: 0.13333333vw !important;
+}
+.radius_down_10 {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 100px !important;
+  border-bottom-left-radius: 100px !important;
+  border-bottom-right-radius: 0.13333333vw !important;
+  border-bottom-left-radius: 0.13333333vw !important;
+}
+.radius_up {
+  /*左上和右上的圆角*/
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.radius_down {
+  /*左下和右下的圆角*/
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/*阴影*/
+.shadow {
+  box-shadow: 0 0 3px 1px ;
+}

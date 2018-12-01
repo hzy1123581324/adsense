@@ -1,0 +1,68 @@
+
+/************边框*********************/
+
+.bor {
+	border: 1px solid;
+}
+
+
+/****圆角***************/
+.radius {/*默认5px*/
+	border-radius: 5px;
+}
+.radius_c{
+	border-radius: 50%;
+}
+.radius_angle{/*直角*/
+  border-radius: 0;
+}
+
+
+.border_radius(@num) when (@num<=100) {
+    .radius_@{num} {
+		border-bottom-right-radius: 1px*@num;
+		border-bottom-left-radius: 1px*@num;
+		border-top-right-radius: 1px*@num;
+		border-top-left-radius: 1px*@num;
+
+		border-bottom-right-radius: 1vw*(@num/750);
+		border-bottom-left-radius: 1vw*(@num/750);
+		border-top-right-radius: 1vw*(@num/750);
+		border-top-left-radius: 1vw*(@num/750);
+	}
+	.radius_up_10 {/*左上和右上的圆角*/
+		border-top-right-radius: 1px*@num;
+		border-top-left-radius: 1px*@num;
+		
+		border-top-right-radius: 1vw*(@num/750);
+		border-top-left-radius: 1vw*(@num/750);
+	}
+	.radius_down_10 {/*左下和右下的圆角*/
+		border-bottom-right-radius: 1px*@num;
+		border-bottom-left-radius: 1px*@num;
+
+		border-bottom-right-radius: 1vw*(@num/750);
+		border-bottom-left-radius: 1vw*(@num/750);
+
+	}
+	.border_radius(@num+5);
+}
+  .border_radius(5)!important;
+			  
+.radius_up {/*左上和右上的圆角*/
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.radius_down {/*左下和右下的圆角*/
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+
+
+
+/*阴影*/
+.shadow {
+	box-shadow: 0 0 3px 1px ;
+}
+

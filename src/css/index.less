@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import "./common/common.less";//公共样式
+
+//业务样式
+@main:#f55;
+@bg_color:#ececec;
+.main(@main){
+    .color_main,.active{
+        color: @main;
+    }
+    .bg_main{
+        background-color: @main;
+    }
+   
+}
+.main(@main) !important;
+.bg_color{
+    background-color: @bg_color !important;
+}

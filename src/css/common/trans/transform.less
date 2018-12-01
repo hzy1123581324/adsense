@@ -1,0 +1,56 @@
+
+/**********转换*********/
+	.rotate_45{
+		.Transform(rotate(45deg));
+	}
+	.rotate_90{
+		.Transform(rotate(90deg));
+	}
+	.rotate_180{
+		.Transform(rotate(180deg));
+	}
+	.rotate_30{
+		.Transform(rotate(30deg));
+	}
+
+.scale_10{/*10/12*/
+	.Transform(scale(0.8333));
+}
+.scale_20{/*10/12*/
+	.Transform(scale(2));
+}
+
+
+/***********************偏移*************/
+.translate_half{/*相对于本身的宽度*/
+	.Transform(translate(-50%,-50%));
+}
+.translate_half_x{
+	.Transform(translateX(-50%));
+}
+.translate_half_y{
+	.Transform(translateY(-50%));
+}
+/************原点********************/
+
+
+.origin_center {/*默认*/
+	// -webkit-transform-origin: center center;
+	// -ms-transform-origin: center center;
+	// -o-transform-origin: center center;
+	// -moz-transform-origin: center center;
+	// transform-origin: center center;
+	.Transform-origin( center center);
+	
+}
+.origin_left_top{/*基于左上角*/
+	// -webkit-transform-origin: 0 0;
+	// -ms-transform-origin: 0 0;
+	// -o-transform-origin: 0 0;
+	// -moz-transform-origin: 0 0;
+	// transform-origin: 0 0;
+	.Transform-origin(0 0);
+}
+.origin_right_top{/*基于右上角*/
+	.Transform-origin( 100% 0);
+}

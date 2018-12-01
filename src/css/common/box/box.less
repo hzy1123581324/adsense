@@ -1,0 +1,58 @@
+/**********************盒模型**********************/
+@import "flex.less";/*弹性布局*/
+@import "border.less";/*边框*/
+
+//内外边距
+.box_gauge(@num) when (@num<=6){
+    @num_str:@num*10;
+    .mar_@{num_str}{
+        margin:10px * @num ;
+    }
+    .mar_top_@{num_str}{
+        margin-top:10px * @num ;
+    }
+    .mar_lf_@{num_str}{
+        margin-left:10px * @num ;
+    }
+    .mar_rg_@{num_str}{
+        margin-right:10px * @num ;
+    }
+    .mar_btm_@{num_str}{
+        margin-bottom:10px * @num ;
+    }
+    .mar_top_btm_@{num_str}{
+        margin-top:10px * @num ;
+        margin-bottom:10px * @num ;
+    }
+    .mar_lf_rg_@{num_str}{
+        margin-left:10px * @num ;
+        margin-right:10px * @num ;
+    }
+    
+
+    .pad_@{num_str}{
+        padding:10px * @num ;
+    }
+    .pad_top_@{num_str}{
+        padding-top:10px * @num ;
+    }
+    .pad_lf_@{num_str}{
+        padding-left:10px * @num ;
+    }
+    .pad_rg_@{num_str}{
+        padding-right:10px * @num ;
+    }
+    .pad_btm_@{num_str}{
+        padding-bottom:10px * @num ;
+    }
+    .pad_top_btm_@{num_str}{
+        padding-top:10px * @num ;
+        padding-bottom:10px * @num ;
+    }
+    .pad_lf_rg_@{num_str}{
+        padding-left:10px * @num ;
+        padding-right:10px * @num ;
+    }
+    .box_gauge(@num+1);
+}
+.box_gauge(-6)!important;
